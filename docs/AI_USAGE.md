@@ -14,3 +14,10 @@
 - **Objetivo:** criar uma marca original legível em tamanho reduzido, com versões para fundos claros e escuros.
 - **Resultado e decisão:** as duas tentativas falharam por credencial inválida. Os SVGs preparados pelo assistente são rascunhos; nenhum resultado de geração visual foi obtido.
 - **Evidência:** retorno `Invalid credential` do gerador e ressalva registrada em `TASKS_SPEC.md`.
+
+## Análise das referências visuais
+
+- **Entrada fornecida na conversa:** exports `Coffee Delivery - Checkout Filled.svg` e `Coffee Delivery - Success.svg`, além da imagem do Checkout.
+- **Objetivo:** transformar os exemplos do Figma em orientações verificáveis para os componentes.
+- **Resposta e decisão:** conferida a divisão do Checkout em formulário e resumo e a composição da Confirmação com painel e ilustração. Manter campos interativos, dados dinâmicos e marca própria, sem usar os exports como telas prontas.
+- **Evidência:** análise registrada em `TECH_SPEC.md` e `TASKS_SPEC.md`; o SVG da Confirmação foi renderizado localmente para conferência.

@@ -122,6 +122,8 @@ O protótipo apresenta as seguintes telas:
 4. Confirmação do pedido — frame `222:824`.
 5. Style Guide.
 
+Os arquivos fornecidos `Coffee Delivery - Checkout Filled.svg` e `Coffee Delivery - Success.svg` são a referência visual direta para essas duas telas. Os dados exibidos no protótipo são exemplos: valores, quantidades, endereço e pagamento devem vir do carrinho e do pedido confirmado, não de textos fixos.
+
 ### 5.1 Home
 
 A Home deverá apresentar:

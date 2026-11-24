@@ -780,7 +780,11 @@ Não implementar o dark mode apenas mudando o fundo da página.
 
 O Figma será utilizado como referência visual.
 
-Os frames de referência do enunciado são Home (`2:1550`), Checkout (`217:511`) e Confirmação (`222:824`). A consulta ao Figma não retornou conteúdo suficiente para inspecionar as telas ou confirmar os tokens. Aproximações visuais não devem ser apresentadas como valores extraídos do protótipo.
+Os frames de referência do enunciado são Home (`2:1550`), Checkout (`217:511`) e Confirmação (`222:824`). A consulta direta ao Figma não retornou conteúdo suficiente para inspecionar os frames, mas os exports desktop fornecidos de Checkout preenchido e Confirmação foram analisados. Ambos possuem `viewBox="0 0 1440 1013"`; essas dimensões descrevem os exports, não o tamanho fixo da aplicação. A Home e o Style Guide não foram confirmados por esses arquivos.
+
+- **Checkout:** endereço e pagamento na coluna principal; cafés selecionados, subtotal, entrega, total e botão de confirmação na coluna lateral. Em telas pequenas, organizar em uma coluna. Usar controles reais e labels associados, mesmo que o exemplo visual use texto dentro dos campos.
+- **Confirmação:** título e mensagem de sucesso acima do painel com endereço, previsão e pagamento; ilustração decorativa ao lado no desktop. Exibir dados do snapshot em HTML e adaptar o painel e a ilustração para mobile.
+- **Assets:** o SVG do Checkout contém duas imagens de cafés incorporadas. Elas não constituem um catálogo completo. As telas exportadas servem como referência, não como substitutas da interface ou como evidência de execução do projeto. A logo do exemplo não substitui a marca original com IA.
 
 Link:
 

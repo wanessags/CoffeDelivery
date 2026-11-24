@@ -1121,6 +1121,12 @@ Não inventar testes, screenshots ou resultados de execução.
 - **Pendências de entrega:** capturas de Home, Checkout, Sucesso e Dark Mode mobile; evidências desktop/mobile no README; repositório público e link do deploy validado.
 - **Branding:** a ferramenta visual retornou erro de credencial. O SVG criado com assistência do OpenCode serve como rascunho e não comprova, sozinho, o uso do gerador visual.
 
+### Revisão dos exports visuais (T02; referência para T10–T13 e T15)
+
+- **Arquivos fornecidos:** `Coffee Delivery - Checkout Filled.svg` e `Coffee Delivery - Success.svg`.
+- **Validação:** layout do Checkout conferido no material enviado; Confirmação renderizada localmente em Chromium. Verificados os `viewBox` de ambos e a presença de duas imagens incorporadas no Checkout.
+- **Resultado:** referências descritas no PRD e no TECH. A implementação e a validação mobile dessas telas continuam pendentes.
+
 ---
 
 # 9. Checklist de entrega final
