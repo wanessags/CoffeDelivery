@@ -1134,6 +1134,13 @@ Não inventar testes, screenshots ou resultados de execução.
 - **Validação:** lint, build e quatro testes aprovados. No Chromium, as 14 imagens carregaram sem rolagem horizontal em 320, 375, 390, 768, 1280 e 1440 px.
 - **Commit parcial:** `feat: adiciona fotos de referencia ao catalogo`.
 
+### T10 — Prévia do endereço no Checkout
+
+- **Escopo:** formulário de entrega, validação e ViaCEP (RF-08, RN-07 e RN-08). O resumo, os pagamentos e a confirmação continuam pendentes.
+- **Arquivos:** `src/pages/Checkout/`, `src/components/DeliveryAddressForm/DeliveryAddressForm.tsx`, `src/schemas/checkoutSchema.ts`, `src/utils/cep.ts` e `src/tests/checkout-address.test.tsx`.
+- **Validação:** lint e build aprovados; oito testes passaram, incluindo quatro sobre endereço com respostas simuladas. Checkout e PNG do Header renderizados na prévia local em Chromium.
+- **Commit:** `feat: implementa endereco e consulta de CEP no checkout`.
+
 ---
 
 # 9. Checklist de entrega final

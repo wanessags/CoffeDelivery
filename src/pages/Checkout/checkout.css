@@ -1,0 +1,130 @@
+.checkout {
+  --checkout-surface: #f3f2f2;
+  --checkout-field: #ededed;
+  --checkout-border: #98918e;
+  --checkout-text: #403937;
+  --checkout-muted: #574f4d;
+  --checkout-accent: #905707;
+  --checkout-error: #a43222;
+  --checkout-success: #146444;
+  color: var(--checkout-text);
+  display: grid;
+  gap: 2rem;
+}
+
+html[data-theme="dark"] .checkout {
+  --checkout-surface: #24201e;
+  --checkout-field: #302b28;
+  --checkout-border: #8b817c;
+  --checkout-text: #f3f2f2;
+  --checkout-muted: #c4bdb9;
+  --checkout-accent: #dbac52;
+  --checkout-error: #ff9d91;
+  --checkout-success: #61d6a3;
+}
+
+.checkout form > h1,
+.checkout > section > h2 {
+  font-size: 1.125rem;
+  margin: 0 0 0.875rem;
+}
+
+.delivery-card,
+.checkout-placeholder {
+  min-width: 0;
+  padding: clamp(1rem, 4vw, 2.5rem);
+  border-radius: 6px;
+  background: var(--checkout-surface);
+}
+
+.checkout-placeholder {
+  border-radius: 6px 44px;
+}
+
+.checkout-placeholder a {
+  display: inline-block;
+  margin-top: 0.75rem;
+}
+
+.delivery-card-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.delivery-card-heading svg {
+  flex: none;
+  color: var(--checkout-accent);
+}
+
+.delivery-card-heading h2 {
+  font: inherit;
+}
+
+.delivery-card-heading p {
+  color: var(--checkout-muted);
+  font-size: 0.875rem;
+  margin-top: 0.125rem;
+}
+
+.delivery-fields {
+  display: grid;
+  gap: 1rem 0.75rem;
+}
+
+.delivery-field {
+  display: grid;
+  align-content: start;
+  gap: 0.25rem;
+  min-width: 0;
+  font-size: 0.875rem;
+}
+
+.delivery-field input {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.625rem 0.75rem;
+  color: var(--checkout-text);
+  background: var(--checkout-field);
+  border: 1px solid var(--checkout-border);
+  border-radius: 4px;
+}
+
+.delivery-field input[aria-invalid="true"] {
+  border-color: var(--checkout-error);
+}
+
+.delivery-field span[role="alert"],
+.delivery-field [data-kind="error"] {
+  color: var(--checkout-error);
+}
+
+.delivery-field [data-kind="success"] {
+  color: var(--checkout-success);
+}
+
+.delivery-field button {
+  justify-self: start;
+  min-height: 32px;
+  padding: 0.25rem 0.5rem;
+  color: var(--checkout-text);
+  background: var(--checkout-field);
+  border: 1px solid var(--checkout-border);
+  border-radius: 4px;
+}
+
+@media (min-width: 540px) {
+  .delivery-fields {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr) 3.75rem;
+  }
+
+  .delivery-field--street { grid-column: 1 / -1; }
+  .delivery-field--complement { grid-column: 2 / -1; }
+}
+
+@media (min-width: 900px) {
+  .checkout {
+    grid-template-columns: minmax(0, 640fr) minmax(0, 448fr);
+  }
+}

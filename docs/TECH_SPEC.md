@@ -658,6 +658,8 @@ O sistema deverá permitir nova tentativa.
 
 Não apagar número e complemento ao atualizar os campos retornados pela API.
 
+Na T10, o formulário consulta o ViaCEP ao completar oito dígitos, permite tentar novamente e cancela a consulta anterior quando o CEP muda. Número e complemento nunca são preenchidos pela API. Se a pessoa editar um campo durante a consulta, a resposta não sobrescreve essa edição. O schema do endereço valida a UF contra as 27 siglas oficiais.
+
 ### 12.3 Segurança
 
 Não enviar informações de pagamento para a API de CEP.
@@ -835,6 +837,8 @@ A marca deverá possuir:
 - Documentação do processo criativo.
 
 A ferramenta, o prompt, o resultado e a justificativa da escolha deverão ser registrados no README ou na documentação de branding. Verificar a legibilidade em tamanho reduzido e os direitos de uso.
+
+A prévia local usa temporariamente o PNG do protótipo enviado pela responsável, com suporte claro atrás da imagem no modo escuro. Esse PNG não comprova o RF-16 e não substitui uma marca original na entrega.
 
 ---
 
