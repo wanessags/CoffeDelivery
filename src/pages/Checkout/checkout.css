@@ -209,6 +209,59 @@ html[data-theme="dark"] .checkout {
   border-radius: 4px;
 }
 
+.payment-card {
+  margin-top: 0.75rem;
+}
+
+.payment-card .delivery-card-heading svg,
+.payment-option svg {
+  color: var(--checkout-action);
+  flex-shrink: 0;
+}
+
+.payment-options {
+  display: grid;
+  gap: 0.625rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 132px), 1fr));
+}
+
+.payment-option {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  padding: 0.5rem 0.625rem;
+  background: var(--checkout-field);
+  border: 1px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.payment-option input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.payment-option:has(:checked) {
+  border-color: var(--checkout-action);
+  background: color-mix(in srgb, var(--checkout-action) 15%, var(--checkout-surface));
+}
+
+.payment-option:has(:focus-visible) {
+  outline: 2px solid var(--checkout-action);
+  outline-offset: 2px;
+}
+
+#payment-error {
+  margin-top: 0.5rem;
+  color: var(--checkout-error);
+}
+
 @media (min-width: 540px) {
   .delivery-fields {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr) 3.75rem;

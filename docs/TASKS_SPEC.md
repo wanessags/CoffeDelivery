@@ -1155,6 +1155,13 @@ Não inventar testes, screenshots ou resultados de execução.
 - **Validação:** lint, build e 12 testes aprovados. Na prévia do navegador, uma unidade de Café com Leite exibiu subtotal de R$ 9,90, frete de R$ 3,50 e total de R$ 13,40.
 - **Commit:** `feat: mostra itens e totais do carrinho no checkout`. A prévia local passa o estado do carrinho pela rota; essa ligação permanece em `src/App.tsx` junto ao código de navegação ainda não versionado.
 
+### T12 — Pagamento fictício
+
+- **Escopo:** cartão de crédito, cartão de débito e dinheiro, com seleção única e obrigatória (RF-09, RN-05).
+- **Arquivos:** `src/components/PaymentMethodSelector/`, `src/pages/Checkout/` e `src/tests/payment.test.tsx`.
+- **Validação:** lint, build e dois testes específicos aprovados, incluindo seleção pelo teclado.
+- **Commit:** `feat: adiciona selecao de pagamento no checkout`.
+
 ---
 
 # 9. Checklist de entrega final

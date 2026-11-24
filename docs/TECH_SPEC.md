@@ -620,6 +620,8 @@ Os erros deverão estar associados aos respectivos campos.
 
 O formulário não poderá confirmar um pedido inválido.
 
+As três opções de pagamento são rádios nativos registrados no mesmo formulário de endereço. O grupo permite navegação pelo teclado e o schema exige uma das três opções, sem solicitar dados financeiros.
+
 ---
 
 ## 12. Integração com ViaCEP
