@@ -410,6 +410,10 @@ Os dados comerciais deverão seguir o protótipo quando estiverem disponíveis.
 
 Não afirmar que valores aproximados foram extraídos diretamente do Figma.
 
+**Referência utilizada na T06:** os 14 PNGs e os SVGs do banner foram obtidos da [referência educacional da Rocketseat](https://github.com/rocketseat-education/ignite-challenge-solution-reactjs-coffee-delivery/tree/main/public/images). Cada foto teve uma correspondência visual distinta na folha de contato gerada com o ZIP fornecido. Como o ZIP e o SVG da Home não continuaram disponíveis, isso confirma a correspondência visual, não a identidade byte a byte com os anexos. O preço unitário de demonstração de R$ 9,90 segue o catálogo da referência educacional.
+
+O banner e os cards são renderizados com HTML, CSS e imagens locais. O layout usa uma, duas, três ou quatro colunas conforme a largura. A identidade original do projeto continua separada dos arquivos do protótipo.
+
 ---
 
 ## 8. Gerenciamento de estado

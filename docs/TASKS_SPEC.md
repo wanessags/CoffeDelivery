@@ -1127,6 +1127,13 @@ Não inventar testes, screenshots ou resultados de execução.
 - **Validação:** layout do Checkout conferido no material enviado; Confirmação renderizada localmente em Chromium. Verificados os `viewBox` de ambos e a presença de duas imagens incorporadas no Checkout.
 - **Resultado:** referências descritas no PRD e no TECH. A implementação e a validação mobile dessas telas continuam pendentes.
 
+### T06 — Fotos e ajustes da Home
+
+- **Status:** em andamento; não foi possível comparar a Home final diretamente com o SVG anexo.
+- **Arquivos:** catálogo tipado em `src/data/coffees.ts`, fotos em `src/assets/coffees/`, arte em `src/assets/home/` e teste em `src/tests/catalog.test.ts`. Os ajustes da grade, dos cards e do banner estão na implementação local.
+- **Validação:** lint, build e quatro testes aprovados. No Chromium, as 14 imagens carregaram sem rolagem horizontal em 320, 375, 390, 768, 1280 e 1440 px.
+- **Commit parcial:** `feat: adiciona fotos de referencia ao catalogo`.
+
 ---
 
 # 9. Checklist de entrega final

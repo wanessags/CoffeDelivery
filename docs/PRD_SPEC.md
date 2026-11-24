@@ -599,6 +599,8 @@ Diretório previsto:
 
 Os nomes, descrições, preços e tags deverão seguir o Figma sempre que puderem ser confirmados.
 
+Na versão atual do catálogo, o preço de demonstração é de R$ 9,90 por unidade, seguindo a referência educacional. O total de cada linha depende da quantidade selecionada.
+
 Não inventar dados afirmando que foram extraídos do protótipo.
 
 ---
