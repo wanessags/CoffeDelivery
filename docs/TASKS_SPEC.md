@@ -1148,6 +1148,13 @@ Não inventar testes, screenshots ou resultados de execução.
 - **Validação:** lint, build e dez testes aprovados; no navegador, `/success` exibiu o estado vazio e carregou o PNG original de 492 × 293 px. O estado preenchido foi validado com um snapshot de teste.
 - **Commit parcial:** `feat: cria interface de confirmacao com ilustracao original`.
 
+### T11 — Cafés selecionados e resumo financeiro
+
+- **Escopo:** itens reais, alteração de quantidade, remoção, subtotal, taxa de entrega e total (RF-05, RF-10, RN-03, RN-04 e RN-09). Pagamento e finalização não foram incluídos.
+- **Arquivos:** `src/components/CartItem/`, `src/components/CartSummary/`, `src/components/EmptyCart/`, `src/pages/Checkout/`, `src/utils/calculateCart.ts` e `src/tests/cart-summary.test.tsx`.
+- **Validação:** lint, build e 12 testes aprovados. Na prévia do navegador, uma unidade de Café com Leite exibiu subtotal de R$ 9,90, frete de R$ 3,50 e total de R$ 13,40.
+- **Commit:** `feat: mostra itens e totais do carrinho no checkout`. A prévia local passa o estado do carrinho pela rota; essa ligação permanece em `src/App.tsx` junto ao código de navegação ainda não versionado.
+
 ---
 
 # 9. Checklist de entrega final

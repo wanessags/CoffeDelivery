@@ -1,0 +1,8 @@
+import "styled-components";
+import type { AppTheme } from "./themes";
+
+declare module "styled-components" {
+  // The existing styled-components interface is augmented using our token type.
+  // eslint-disable-next-line @typescript-eslint/no-empty-object-type
+  export interface DefaultTheme extends AppTheme {}
+}

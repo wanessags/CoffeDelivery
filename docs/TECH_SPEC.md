@@ -562,6 +562,8 @@ Converter centavos para reais apenas na apresentação.
 
 Evitar operações monetárias baseadas em números decimais quando não forem necessárias.
 
+No Checkout, `CartSummary` recebe os itens e ações do carrinho. Usa `getCartTotals` para subtotal, entrega e total; cada linha apresenta o preço multiplicado pela quantidade. Os controles usam o mesmo reducer do catálogo. Reduzir de uma unidade remove a linha, e o resumo vazio não exibe cobrança.
+
 ---
 
 ## 11. Formulário de Checkout

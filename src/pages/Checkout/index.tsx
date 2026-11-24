@@ -1,11 +1,12 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { FormProvider, useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { CartSummary, type CartSummaryProps } from "../../components/CartSummary/CartSummary";
 import { DeliveryAddressForm } from "../../components/DeliveryAddressForm/DeliveryAddressForm";
+import { EmptyCart } from "../../components/EmptyCart/EmptyCart";
 import { addressDefaultValues, addressSchema } from "../../schemas/checkoutSchema";
 import "./checkout.css";
 
-export function Checkout() {
+export function Checkout({ cart }: { cart?: CartSummaryProps }) {
   const form = useForm({
     defaultValues: addressDefaultValues,
     resolver: zodResolver(addressSchema),
@@ -22,9 +23,8 @@ export function Checkout() {
       </FormProvider>
       <section aria-labelledby="selected-coffees-title">
         <h2 id="selected-coffees-title">Cafés selecionados</h2>
-        <div className="checkout-placeholder">
-          <p>O resumo e a confirmação serão adicionados na próxima etapa.</p>
-          <Link to="/">Voltar ao catálogo</Link>
+        <div className="checkout-cart">
+          {cart ? <CartSummary {...cart} /> : <EmptyCart />}
         </div>
       </section>
     </div>

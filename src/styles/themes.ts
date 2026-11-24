@@ -1,0 +1,48 @@
+﻿export const lightTheme = {
+  background: "#FAFAFA",
+  surface: "#FFFFFF",
+  surfaceSecondary: "#F3F2F2",
+  text: "#272221",
+  textSecondary: "#574F4D",
+  primary: "#8047F8",
+  primaryHover: "#4B2995",
+  secondary: "#C47F17",
+  border: "#E6E5E5",
+  focus: "#8047F8",
+  error: "#B6402C",
+  success: "#00875F",
+  disabled: "#D7D5D5",
+  primaryContrast: "#FFFFFF",
+  tag: "#F3F2F2",
+  tagText: "#574F4D",
+  radius: "8px",
+  shadow: "0 2px 10px rgba(39, 34, 33, 0.08)",
+  titleFont: "'Baloo 2', cursive",
+  bodyFont: "'Roboto', sans-serif",
+};
+
+export const darkTheme = {
+  background: "#171412",
+  surface: "#24201E",
+  surfaceSecondary: "#302B28",
+  text: "#F3F2F2",
+  textSecondary: "#C4BDB9",
+  primary: "#B38CFF",
+  primaryHover: "#D0B8FF",
+  secondary: "#DBAC52",
+  border: "#4A403B",
+  focus: "#B38CFF",
+  error: "#FF9D91",
+  success: "#61D6A3",
+  disabled: "#716A66",
+  primaryContrast: "#171412",
+  tag: "#302B28",
+  tagText: "#F3F2F2",
+  radius: "8px",
+  shadow: "0 2px 12px rgba(0, 0, 0, 0.35)",
+  titleFont: "'Baloo 2', cursive",
+  bodyFont: "'Roboto', sans-serif",
+};
+
+export type AppTheme = typeof lightTheme;
+export type ThemeMode = "light" | "dark";

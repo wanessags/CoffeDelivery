@@ -7,6 +7,7 @@
   --checkout-accent: #905707;
   --checkout-error: #a43222;
   --checkout-success: #146444;
+  --checkout-action: #6335bd;
   color: var(--checkout-text);
   display: grid;
   gap: 2rem;
@@ -21,6 +22,7 @@ html[data-theme="dark"] .checkout {
   --checkout-accent: #dbac52;
   --checkout-error: #ff9d91;
   --checkout-success: #61d6a3;
+  --checkout-action: #c5a8ff;
 }
 
 .checkout form > h1,
@@ -30,20 +32,113 @@ html[data-theme="dark"] .checkout {
 }
 
 .delivery-card,
-.checkout-placeholder {
+.checkout-cart {
   min-width: 0;
   padding: clamp(1rem, 4vw, 2.5rem);
   border-radius: 6px;
   background: var(--checkout-surface);
 }
 
-.checkout-placeholder {
+.checkout-cart {
   border-radius: 6px 44px;
 }
 
-.checkout-placeholder a {
+.checkout-cart a {
   display: inline-block;
   margin-top: 0.75rem;
+}
+
+.checkout-cart-items {
+  display: grid;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.checkout-cart-item {
+  display: grid;
+  grid-template-columns: clamp(40px, 8vw, 64px) minmax(0, 1fr);
+  gap: 0.75rem;
+  align-items: start;
+  padding: 0.875rem 0;
+  border-bottom: 1px solid var(--checkout-border);
+}
+
+.checkout-cart-item:first-child {
+  padding-top: 0;
+}
+
+.checkout-cart-item img {
+  width: 100%;
+  height: auto;
+}
+
+.checkout-item-heading,
+.checkout-item-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.375rem 0.625rem;
+}
+
+.checkout-item-heading {
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.checkout-item-heading h3 {
+  font: inherit;
+}
+
+.checkout-item-heading strong,
+.checkout-totals dd {
+  white-space: nowrap;
+}
+
+.checkout-item-actions > button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  min-height: 36px;
+  padding: 0.375rem 0.5rem;
+  color: var(--checkout-text);
+  background: var(--checkout-field);
+  border: 1px solid var(--checkout-border);
+  border-radius: 6px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.checkout-item-actions > button svg {
+  color: var(--checkout-action);
+}
+
+.checkout-item-actions > button:hover {
+  border-color: var(--checkout-action);
+}
+
+.checkout-totals {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  color: var(--checkout-muted);
+  font-size: 0.875rem;
+}
+
+.checkout-totals > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.checkout-totals dd {
+  margin: 0;
+}
+
+.checkout-totals > div:last-child {
+  color: var(--checkout-text);
+  font-size: clamp(1rem, 4vw, 1.25rem);
+  font-weight: 700;
 }
 
 .delivery-card-heading {
