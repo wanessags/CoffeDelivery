@@ -1162,6 +1162,13 @@ Não inventar testes, screenshots ou resultados de execução.
 - **Validação:** lint, build e dois testes específicos aprovados, incluindo seleção pelo teclado.
 - **Commit:** `feat: adiciona selecao de pagamento no checkout`.
 
+### T13 — Finalização do pedido
+
+- **Escopo:** botão de confirmação, validação completa, snapshot independente e navegação para `/success` após limpar o carrinho (RF-11 a RF-13, RN-06, RN-09 e RN-10).
+- **Arquivos:** `src/pages/Checkout/`, `src/App.tsx`, `src/contexts/OrderContext.tsx`, `src/utils/confirmedOrder.ts` e `src/tests/confirm-order.test.tsx`.
+- **Validação:** lint e build aprovados; 17 testes passaram. O teste de integração confirma a compra fictícia, a limpeza do carrinho e a restauração da confirmação ao montar de novo a aplicação. O ViaCEP foi simulado nesse teste.
+- **Commit:** `feat: confirma pedido e preserva snapshot da entrega`. A integração da estrutura já implementada da SPA foi registrada separadamente em `39f2048`.
+
 ---
 
 # 9. Checklist de entrega final

@@ -713,7 +713,9 @@ Se não houver pedido válido, a página deverá apresentar uma mensagem apropri
 
 Não exibir dados fictícios de um pedido inexistente.
 
-O componente `OrderSuccess` recebe o snapshot por propriedade e apresenta endereço, pagamento e previsão fictícia de 20 a 30 minutos. A arte fornecida foi importada como PNG decorativo, sem texto embutido, e o layout passa de uma para duas colunas em telas maiores. A criação do snapshot pelo checkout continua pendente.
+O componente `OrderSuccess` recebe o snapshot por propriedade e apresenta endereço, pagamento e previsão fictícia de 20 a 30 minutos. A arte fornecida foi importada como PNG decorativo, sem texto embutido, e o layout passa de uma para duas colunas em telas maiores.
+
+Ao confirmar, `createConfirmedOrder` valida novamente o formulário e os itens, fixa os valores em centavos e cria o snapshot. O contexto preserva esse snapshot antes de limpar o carrinho, e o Checkout navega para `/success`. Ao recarregar, o snapshot em `sessionStorage` é revalidado, inclusive endereço, forma de pagamento e coerência dos totais.
 
 ---
 

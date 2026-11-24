@@ -141,6 +141,32 @@ html[data-theme="dark"] .checkout {
   font-weight: 700;
 }
 
+.checkout-confirm {
+  width: 100%;
+  min-height: 46px;
+  margin-top: 1.5rem;
+  padding: 0.625rem;
+  border: 0;
+  border-radius: 6px;
+  background: #dbac52;
+  color: #272221;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.checkout-confirm:hover:not(:disabled) { background: #edbc5e; }
+
+.checkout-confirm:disabled {
+  background: var(--checkout-field);
+  color: var(--checkout-muted);
+}
+
+.checkout-order-error {
+  margin-top: 0.625rem;
+  color: var(--checkout-error);
+}
+
 .delivery-card-heading {
   display: flex;
   align-items: flex-start;
