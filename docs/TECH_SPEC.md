@@ -846,7 +846,7 @@ A marca deverá possuir:
 
 A ferramenta, o prompt, o resultado e a justificativa da escolha deverão ser registrados no README ou na documentação de branding. Verificar a legibilidade em tamanho reduzido e os direitos de uso.
 
-A proposta autoral local usa `src/assets/branding/marca-autoral.svg` no Header e no favicon. O ícone é o mesmo nos dois temas, e o texto em HTML usa a cor semântica de cada tema. O PNG do protótipo permanece no repositório como referência histórica. A ferramenta dedicada de geração visual ainda não produziu uma imagem; consulte `docs/AI_USAGE.md`.
+O Header usa as versões transparentes do PNG do protótipo, e `src/assets/home/hero.svg` preserva a estampa original do copo. O símbolo autoral `src/assets/branding/marca-autoral.svg` foi avaliado localmente e permanece como rascunho fora da interface. A ferramenta dedicada de geração visual ainda não produziu uma imagem; consulte `docs/AI_USAGE.md`.
 
 ---
 

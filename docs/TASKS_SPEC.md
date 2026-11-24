@@ -1200,6 +1200,8 @@ Não inventar testes, screenshots ou resultados de execução.
 - **Pendências:** aprovação da proposta para publicação e geração pela ferramenta visual, indisponível por erro de credencial.
 - **Commit local:** `style: prepara proposta autoral de marca e favicon`.
 
+**Decisão posterior:** após a avaliação da proposta, a usuária preferiu manter a logo do protótipo no Header e a estampa original no banner. O SVG autoral ficou como rascunho. O RF-16 continua pendente.
+
 ---
 
 # 9. Checklist de entrega final
