@@ -1209,6 +1209,12 @@ Não inventar testes, screenshots ou resultados de execução.
 - **Pendência:** o gerador visual não produziu uma proposta; essa parte do RF-16 não está validada.
 - **Commit:** `style: aplica a marca escolhida no cabecalho e no banner`.
 
+### T17 — Atualização das capturas com a logo escolhida
+
+- **Arquivos:** `README.md` e `docs/evidences/logo-atual/`.
+- **Validação:** sete capturas feitas em Chromium a partir da prévia do mesmo build publicado (`53eeb99`). O fluxo de compra foi percorrido em desktop e mobile com ViaCEP simulado, e a Home mobile foi capturada nos dois temas.
+- **Commit:** `docs: atualiza capturas com a nova identidade visual`.
+
 ---
 
 # 9. Checklist de entrega final

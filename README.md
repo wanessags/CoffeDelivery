@@ -34,17 +34,17 @@ Abra o endereço informado pelo Vite, normalmente [http://localhost:5173](http:/
 
 ### Telas
 
-As capturas abaixo foram feitas na aplicação local. O Checkout e a Confirmação usam um endereço de demonstração e uma resposta simulada do ViaCEP.
+As capturas abaixo mostram a versão com a logo atual no cabeçalho e no copo do banner. Foram feitas na prévia do mesmo build publicado. O Checkout e a Confirmação usam um endereço de demonstração e uma resposta simulada do ViaCEP.
 
 | Home | Checkout | Confirmação |
 |---|---|---|
-| [![Home em desktop](docs/evidences/home-desktop.jpg)](docs/evidences/home-desktop.jpg) | [![Checkout em desktop](docs/evidences/checkout-desktop.jpg)](docs/evidences/checkout-desktop.jpg) | [![Confirmação em desktop](docs/evidences/confirmacao-desktop.jpg)](docs/evidences/confirmacao-desktop.jpg) |
+| [![Home em desktop](docs/evidences/logo-atual/home-desktop.jpg)](docs/evidences/logo-atual/home-desktop.jpg) | [![Checkout em desktop](docs/evidences/logo-atual/checkout-desktop.jpg)](docs/evidences/logo-atual/checkout-desktop.jpg) | [![Confirmação em desktop](docs/evidences/logo-atual/confirmacao-desktop.jpg)](docs/evidences/logo-atual/confirmacao-desktop.jpg) |
 
 | Home mobile — tema claro | Home mobile — tema escuro |
 |---|---|
-| [![Home mobile em tema claro](docs/evidences/home-mobile.jpg)](docs/evidences/home-mobile.jpg) | [![Home mobile em tema escuro](docs/evidences/home-mobile-escuro.jpg)](docs/evidences/home-mobile-escuro.jpg) |
+| [![Home mobile em tema claro](docs/evidences/logo-atual/home-mobile.jpg)](docs/evidences/logo-atual/home-mobile.jpg) | [![Home mobile em tema escuro](docs/evidences/logo-atual/home-mobile-escuro.jpg)](docs/evidences/logo-atual/home-mobile-escuro.jpg) |
 
-Outras telas mobile: [Checkout](docs/evidences/checkout-mobile.jpg) · [Confirmação](docs/evidences/confirmacao-mobile.jpg).
+Outras telas mobile: [Checkout](docs/evidences/logo-atual/checkout-mobile.jpg) · [Confirmação](docs/evidences/logo-atual/confirmacao-mobile.jpg).
 
 ## Tecnologias e decisões
 
