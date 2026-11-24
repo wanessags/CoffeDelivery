@@ -1186,6 +1186,12 @@ Não inventar testes, screenshots ou resultados de execução.
 
 **Atualização:** a URL de implantação informada foi adicionada ao README. O acesso sem login redireciona para a autenticação da Vercel; a validação pública continua pendente.
 
+### T04 — Atualização da logo da prévia
+
+- **Escopo:** substituir o PNG do cabeçalho pelo arquivo transparente enviado, com texto claro no tema escuro. A marca autoral exigida pelo RF-16 permanece pendente.
+- **Validação:** lint, build e 17 testes passaram. No Chromium, as versões clara e escura carregaram sem fundo aplicado ao elemento.
+- **Commit:** `style: atualiza logo transparente do cabecalho`.
+
 ---
 
 # 9. Checklist de entrega final

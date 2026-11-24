@@ -846,7 +846,7 @@ A marca deverá possuir:
 
 A ferramenta, o prompt, o resultado e a justificativa da escolha deverão ser registrados no README ou na documentação de branding. Verificar a legibilidade em tamanho reduzido e os direitos de uso.
 
-A prévia local usa temporariamente o PNG do protótipo enviado pela responsável, com suporte claro atrás da imagem no modo escuro. Esse PNG não comprova o RF-16 e não substitui uma marca original na entrega.
+A prévia usa temporariamente o PNG transparente do protótipo enviado pela responsável. A variante de tema escuro mantém o ícone roxo e a transparência, com o texto recolorido em tom claro para legibilidade. Esse PNG não comprova o RF-16 e não substitui uma marca original na entrega.
 
 ---
 

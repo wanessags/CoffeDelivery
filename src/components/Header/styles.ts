@@ -23,12 +23,6 @@ export const Logo = styled.img`
   width: 85px;
   height: 40px;
   object-fit: contain;
-
-  html[data-theme="dark"] & {
-    background: #fafafa;
-    border-radius: 4px;
-    outline: 4px solid #fafafa;
-  }
 `;
 
 export const Controls = styled.div`
