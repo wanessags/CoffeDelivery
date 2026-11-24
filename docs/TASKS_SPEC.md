@@ -1141,6 +1141,13 @@ Não inventar testes, screenshots ou resultados de execução.
 - **Validação:** lint e build aprovados; oito testes passaram, incluindo quatro sobre endereço com respostas simuladas. Checkout e PNG do Header renderizados na prévia local em Chromium.
 - **Commit:** `feat: implementa endereco e consulta de CEP no checkout`.
 
+### T13 — Interface de confirmação e ilustração (parcial)
+
+- **Escopo independente:** componente que recebe um snapshot pronto e modo vazio quando o snapshot está ausente (RF-12 e RN-09). A criação do pedido e a limpeza do carrinho permanecem pendentes.
+- **Arquivos:** `src/components/OrderSuccess/`, `src/pages/Success/`, `src/assets/success/delivery.png` e `src/tests/order-success.test.tsx`. O roteamento da prévia local fornece o snapshot ao componente.
+- **Validação:** lint, build e dez testes aprovados; no navegador, `/success` exibiu o estado vazio e carregou o PNG original de 492 × 293 px. O estado preenchido foi validado com um snapshot de teste.
+- **Commit parcial:** `feat: cria interface de confirmacao com ilustracao original`.
+
 ---
 
 # 9. Checklist de entrega final

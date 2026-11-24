@@ -1,0 +1,95 @@
+.order-success {
+  --success-heading: #905707;
+  --success-copy: #574f4d;
+  --success-page: #fafafa;
+  --success-location: #7440df;
+  --success-time: #8a650a;
+  --success-payment: #9d5e09;
+  padding: clamp(1rem, 5vw, 3.25rem) 0;
+}
+
+html[data-theme="dark"] .order-success {
+  --success-heading: #dbac52;
+  --success-copy: #c4bdb9;
+  --success-page: #171412;
+  --success-location: #6540bb;
+  --success-time: #82600b;
+  --success-payment: #935404;
+}
+
+.order-success h1 {
+  margin: 0;
+  color: var(--success-heading);
+  font-size: clamp(1.65rem, 4vw, 2rem);
+  font-weight: 800;
+}
+
+.order-success-intro {
+  margin: 0.25rem 0 0;
+  color: var(--success-copy);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+}
+
+.order-success-layout {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.order-success-layout img {
+  width: min(100%, 492px);
+  height: auto;
+  justify-self: center;
+}
+
+.order-success-details {
+  display: grid;
+  gap: 2rem;
+  margin: 0;
+  padding: clamp(1rem, 4vw, 2.5rem);
+  color: var(--success-copy);
+  border: 1px solid transparent;
+  border-radius: 6px 36px;
+  background:
+    linear-gradient(var(--success-page), var(--success-page)) padding-box,
+    linear-gradient(120deg, #dbac52, #9565ff) border-box;
+  list-style: none;
+}
+
+.order-success-details li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  overflow-wrap: anywhere;
+}
+
+.order-success-details p {
+  margin: 0;
+}
+
+.order-success-icon {
+  display: inline-grid;
+  flex: 0 0 2rem;
+  height: 2rem;
+  place-items: center;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.order-success-icon--location { background: var(--success-location); }
+.order-success-icon--time { background: var(--success-time); }
+.order-success-icon--payment { background: var(--success-payment); }
+
+.order-success-return {
+  justify-self: start;
+  padding: 0.625rem 0;
+  font-weight: 700;
+}
+
+@media (min-width: 900px) {
+  .order-success-layout {
+    grid-template-columns: minmax(0, 526fr) minmax(0, 492fr);
+    gap: clamp(2rem, 7vw, 6.375rem);
+  }
+}

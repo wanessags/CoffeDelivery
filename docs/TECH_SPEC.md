@@ -709,6 +709,8 @@ Se não houver pedido válido, a página deverá apresentar uma mensagem apropri
 
 Não exibir dados fictícios de um pedido inexistente.
 
+O componente `OrderSuccess` recebe o snapshot por propriedade e apresenta endereço, pagamento e previsão fictícia de 20 a 30 minutos. A arte fornecida foi importada como PNG decorativo, sem texto embutido, e o layout passa de uma para duas colunas em telas maiores. A criação do snapshot pelo checkout continua pendente.
+
 ---
 
 ## 14. Tema claro e escuro
