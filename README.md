@@ -2,7 +2,7 @@
 
 Loja fictícia de café desenvolvida como projeto final da disciplina **Single Page Application (SPA)**. Escolha um café, ajuste o carrinho, informe o endereço e confirme um pedido de demonstração. **O site não realiza pagamentos nem entregas reais.**
 
-**Publicação:** pendente. A versão de desenvolvimento pode ser executada localmente com as instruções abaixo.
+**Implantação:** [Coffee Delivery na Vercel](https://coffe-delivery-1wiu5unzu-wanessags.vercel.app/). Este link exige login na Vercel. O link público para a entrega ainda está pendente; a aplicação também pode ser executada localmente.
 
 ## Como executar
 

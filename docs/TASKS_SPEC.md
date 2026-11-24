@@ -1184,6 +1184,8 @@ Não inventar testes, screenshots ou resultados de execução.
 - **Pendências:** obter uma URL pública definitiva e validar as rotas nela.
 - **Commit:** `chore: prepara hospedagem da SPA na Vercel`.
 
+**Atualização:** a URL de implantação informada foi adicionada ao README. O acesso sem login redireciona para a autenticação da Vercel; a validação pública continua pendente.
+
 ---
 
 # 9. Checklist de entrega final
