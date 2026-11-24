@@ -1169,6 +1169,14 @@ Não inventar testes, screenshots ou resultados de execução.
 - **Validação:** lint e build aprovados; 17 testes passaram. O teste de integração confirma a compra fictícia, a limpeza do carrinho e a restauração da confirmação ao montar de novo a aplicação. O ViaCEP foi simulado nesse teste.
 - **Commit:** `feat: confirma pedido e preserva snapshot da entrega`. A integração da estrutura já implementada da SPA foi registrada separadamente em `39f2048`.
 
+### T17 — README e evidências
+
+- **Arquivos:** `README.md` e `docs/evidences/`.
+- **Escopo:** instalação, demonstração, arquitetura, branding e capturas da aplicação.
+- **Validação:** fluxo Home → Checkout → Confirmação executado em Chromium com dados de demonstração e ViaCEP simulado. Capturas desktop (1440 px) e mobile (390 px), incluindo o modo escuro.
+- **Pendências:** marca autoral gerada por ferramenta visual e publicação definitiva.
+- **Commit:** `docs: apresenta o projeto e registra evidencias da aplicacao`.
+
 ---
 
 # 9. Checklist de entrega final
