@@ -1192,6 +1192,14 @@ Não inventar testes, screenshots ou resultados de execução.
 - **Validação:** lint, build e 17 testes passaram. No Chromium, as versões clara e escura carregaram sem fundo aplicado ao elemento.
 - **Commit:** `style: atualiza logo transparente do cabecalho`.
 
+### T04 — Proposta autoral de marca (parcial)
+
+- **Escopo:** símbolo original em SVG, texto adaptado ao tema, favicon e registro do processo (RF-16).
+- **Arquivos:** `src/assets/branding/marca-autoral.svg`, `src/components/Header/`, `index.html`, `README.md`, `docs/AI_USAGE.md` e `docs/TECH_SPEC.md`.
+- **Validação:** lint, build e 17 testes aprovados. A prévia carregou o símbolo no Header e referenciou o SVG no favicon.
+- **Pendências:** aprovação da proposta para publicação e geração pela ferramenta visual, indisponível por erro de credencial.
+- **Commit local:** `style: prepara proposta autoral de marca e favicon`.
+
 ---
 
 # 9. Checklist de entrega final

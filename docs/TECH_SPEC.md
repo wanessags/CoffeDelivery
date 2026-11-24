@@ -846,7 +846,7 @@ A marca deverá possuir:
 
 A ferramenta, o prompt, o resultado e a justificativa da escolha deverão ser registrados no README ou na documentação de branding. Verificar a legibilidade em tamanho reduzido e os direitos de uso.
 
-A prévia usa temporariamente o PNG transparente do protótipo enviado pela responsável. A variante de tema escuro mantém o ícone roxo e a transparência, com o texto recolorido em tom claro para legibilidade. Esse PNG não comprova o RF-16 e não substitui uma marca original na entrega.
+A proposta autoral local usa `src/assets/branding/marca-autoral.svg` no Header e no favicon. O ícone é o mesmo nos dois temas, e o texto em HTML usa a cor semântica de cada tema. O PNG do protótipo permanece no repositório como referência histórica. A ferramenta dedicada de geração visual ainda não produziu uma imagem; consulte `docs/AI_USAGE.md`.
 
 ---
 

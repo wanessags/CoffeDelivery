@@ -21,3 +21,11 @@
 - **Objetivo:** transformar os exemplos do Figma em orientações verificáveis para os componentes.
 - **Resposta e decisão:** conferida a divisão do Checkout em formulário e resumo e a composição da Confirmação com painel e ilustração. Manter campos interativos, dados dinâmicos e marca própria, sem usar os exports como telas prontas.
 - **Evidência:** análise registrada em `TECH_SPEC.md` e `TASKS_SPEC.md`; o SVG da Confirmação foi renderizado localmente para conferência.
+
+## Proposta de marca autoral em SVG
+
+- **Ferramentas:** gerador visual do OpenCode (`opencode/grok-imagine-image-2.0`) e assistente OpenCode para desenhar o SVG como código.
+- **Prompt visual:** “Design ONE original logo symbol for a Brazilian academic coffee delivery web app named Coffee Delivery. Just the symbol, absolutely no text, no numbers, no typography. A minimal flat vector-style mark that fuses a tilted porcelain coffee cup viewed from the side and a single coffee bean as the cup's visible interior, with a simple two-stroke steam curl bending forward like a small route. No rocket, no takeout tumbler, no wings, no location pin, no arrows, no imitation of existing coffee brands. Make it legible as a 16px favicon: thick shapes, clear negative space, no detail, no shadows, gradients, texture, thin strokes, or outlines. Put it in a flat deep violet softly rounded square tile (dark violet #4B2995) with shapes in cream (#FFF5E1) and golden amber (#F1BE58), visually centered and generously padded. Single square output, crisp edge, flat solid #FFFFFF outside the tile, no border or mockup. The contrast should work on both white and near-black pages.”
+- **Objetivo:** criar uma marca distinta do foguete do protótipo, com um símbolo utilizável no cabeçalho e no favicon.
+- **Resultado e decisão:** o gerador novamente retornou `Invalid credential`. Para avaliação local, o assistente desenhou uma proposta em SVG com xícara, grão e vapor. As formas foram criadas no próprio arquivo, sem reutilizar a arte do Figma; o texto fica no HTML e segue o tema. A proposta não comprova geração pela ferramenta visual exigida no enunciado.
+- **Evidência:** [arquivo SVG](../src/assets/branding/marca-autoral.svg), integração no `Header` e no favicon.
