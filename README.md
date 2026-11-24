@@ -2,7 +2,7 @@
 
 Loja fictícia de café desenvolvida como projeto final da disciplina **Single Page Application (SPA)**. Escolha um café, ajuste o carrinho, informe o endereço e confirme um pedido de demonstração. **O site não realiza pagamentos nem entregas reais.**
 
-**Implantação:** veja o link e o status em [Hospedagem na Vercel](#hospedagem-na-vercel).
+**Site publicado:** [coffe-delivery-blush.vercel.app](https://coffe-delivery-blush.vercel.app/)
 
 ## Como executar
 
@@ -69,6 +69,6 @@ O cabeçalho usa temporariamente o PNG transparente do protótipo, com uma varia
 
 ## Hospedagem na Vercel
 
-**Link da implantação:** [Coffee Delivery na Vercel](https://coffe-delivery-1wiu5unzu-wanessags.vercel.app/). Sem login, esse endereço abre a tela de autenticação da Vercel. O domínio público para a entrega ainda não foi confirmado.
+**Link público de produção:** [Coffee Delivery na Vercel](https://coffe-delivery-blush.vercel.app/). A Home, o Checkout e a Confirmação abrem sem login. Sem um pedido confirmado na sessão, a rota de Confirmação mostra o estado vazio.
 
 Na [Vercel](https://vercel.com/new), entre com o GitHub, importe `wanessags/CoffeDelivery` e publique a branch `main`. O `vercel.json` já define a instalação, o build e o redirecionamento das rotas da SPA; não há variáveis de ambiente obrigatórias.

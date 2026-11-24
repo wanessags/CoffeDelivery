@@ -1184,7 +1184,7 @@ Não inventar testes, screenshots ou resultados de execução.
 - **Pendências:** obter uma URL pública definitiva e validar as rotas nela.
 - **Commit:** `chore: prepara hospedagem da SPA na Vercel`.
 
-**Atualização:** a URL de implantação informada foi adicionada ao README. O acesso sem login redireciona para a autenticação da Vercel; a validação pública continua pendente.
+**Atualização:** o README agora aponta para o [domínio público de produção](https://coffe-delivery-blush.vercel.app/), no lugar do link de deploy que exigia login. Validei `/`, `/checkout` e `/success` em uma sessão limpa do Chromium, incluindo recarregar as duas rotas internas.
 
 ### T04 — Atualização da logo da prévia
 
