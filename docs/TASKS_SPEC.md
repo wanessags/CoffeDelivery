@@ -21,6 +21,7 @@ Documentos de referência:
 - `docs/PRD_SPEC.md`
 - `docs/TECH_SPEC.md`
 - `docs/TASKS_SPEC.md`
+- [Enunciado oficial no Notion](https://app.notion.com/p/41bdfca74d8d8119a849e30ea492a6af), conferido pelo PDF fornecido.
 
 Referência visual:
 
@@ -234,7 +235,7 @@ RF-14, RF-16.
 **Atividades:**
 
 - [ ] Definir conceito da marca.
-- [ ] Criar proposta de logo com IA.
+- [ ] Criar pelo menos uma proposta original com uma ferramenta de geração visual por IA.
 - [ ] Registrar ferramenta e prompt.
 - [ ] Escolher a logo.
 - [ ] Criar versão para fundo claro.
@@ -260,6 +261,7 @@ RF-14, RF-16.
 - Verificar presença da logo.
 - Verificar favicon.
 - Verificar legibilidade em tamanhos reduzidos.
+- Verificar os direitos de uso da proposta.
 
 **Commit sugerido:**
 
@@ -973,6 +975,7 @@ Documentação e uso obrigatório de IA.
 - [ ] Adicionar screenshots da confirmação.
 - [ ] Adicionar screenshots mobile.
 - [ ] Adicionar screenshots dark mode.
+- [ ] Preparar uma breve demonstração de Home → Checkout → Confirmação.
 - [ ] Documentar testes.
 - [ ] Documentar decisões técnicas.
 - [ ] Documentar instruções de instalação.
@@ -1110,6 +1113,13 @@ Commit:
 Registrar resultados reais.
 
 Não inventar testes, screenshots ou resultados de execução.
+
+### Conferência com o enunciado do Notion
+
+- **Escopo:** atualização documental de T02 e dos critérios de T04, T17 e T18, sem encerrar essas tarefas.
+- **Alterações:** frames do Figma, uso obrigatório de gerador visual, registro de branding e demonstração do fluxo.
+- **Pendências de entrega:** capturas de Home, Checkout, Sucesso e Dark Mode mobile; evidências desktop/mobile no README; repositório público e link do deploy validado.
+- **Branding:** a ferramenta visual retornou erro de credencial. O SVG criado com assistência do OpenCode serve como rascunho e não comprova, sozinho, o uso do gerador visual.
 
 ---
 

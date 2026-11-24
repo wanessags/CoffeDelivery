@@ -108,16 +108,18 @@ As funcionalidades opcionais não devem comprometer a entrega principal.
 
 ## 5. Referência visual
 
+Enunciado oficial: [Projeto Final 05 no Notion](https://app.notion.com/p/41bdfca74d8d8119a849e30ea492a6af). O PDF fornecido é a referência para os critérios de aceite.
+
 Figma:
 
 https://www.figma.com/design/yGPNTA0Yczb183EikXGIiA/Coffee-Delivery-%E2%80%A2-Projeto-Final-React?node-id=2-1297
 
 O protótipo apresenta as seguintes telas:
 
-1. Home.
-2. Checkout.
+1. Home — frame `2:1550`.
+2. Checkout — frame `217:511`.
 3. Checkout preenchido.
-4. Confirmação do pedido.
+4. Confirmação do pedido — frame `222:824`.
 5. Style Guide.
 
 ### 5.1 Home
@@ -367,11 +369,12 @@ O projeto deverá possuir logo original desenvolvida com auxílio de inteligênc
 **Critérios de aceite:**
 
 - A logo é original.
+- Pelo menos uma proposta é criada com uma ferramenta de geração visual por IA.
 - Está integrada ao Header.
 - Existe favicon.
 - A marca funciona em fundos claros e escuros.
 - O processo de criação é documentado.
-- A ferramenta e o prompt utilizados são registrados.
+- O registro inclui ferramenta, prompt, resultado e justificativa da escolha. Verificar a legibilidade em tamanho reduzido e os direitos de uso.
 
 ---
 

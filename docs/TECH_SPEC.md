@@ -780,6 +780,8 @@ Não implementar o dark mode apenas mudando o fundo da página.
 
 O Figma será utilizado como referência visual.
 
+Os frames de referência do enunciado são Home (`2:1550`), Checkout (`217:511`) e Confirmação (`222:824`). A consulta ao Figma não retornou conteúdo suficiente para inspecionar as telas ou confirmar os tokens. Aproximações visuais não devem ser apresentadas como valores extraídos do protótipo.
+
 Link:
 
 https://www.figma.com/design/yGPNTA0Yczb183EikXGIiA/Coffee-Delivery-%E2%80%A2-Projeto-Final-React?node-id=2-1297
@@ -815,7 +817,7 @@ Biblioteca:
 
 ### 15.4 Logo
 
-Criar logo original com auxílio de IA.
+Criar pelo menos uma proposta original com uma ferramenta de geração de imagem ou identidade visual por IA.
 
 A marca deverá possuir:
 
@@ -824,7 +826,7 @@ A marca deverá possuir:
 - Favicon.
 - Documentação do processo criativo.
 
-A ferramenta, prompt e resultado deverão ser registrados no README ou na documentação de branding.
+A ferramenta, o prompt, o resultado e a justificativa da escolha deverão ser registrados no README ou na documentação de branding. Verificar a legibilidade em tamanho reduzido e os direitos de uso.
 
 ---
 
