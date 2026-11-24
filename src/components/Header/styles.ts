@@ -19,10 +19,35 @@ export const HeaderContainer = styled.header`
   }
 `;
 
+export const BrandLink = styled(Link)`
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  color: ${({ theme }) => theme.text};
+  text-decoration: none;
+`;
+
 export const Logo = styled.img`
-  width: 85px;
+  width: 40px;
   height: 40px;
-  object-fit: contain;
+  flex-shrink: 0;
+`;
+
+export const BrandName = styled.span`
+  display: grid;
+  font-family: ${({ theme }) => theme.titleFont};
+  line-height: 1;
+
+  strong {
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: -0.035em;
+  }
+
+  span {
+    font-size: 1rem;
+    font-weight: 600;
+  }
 `;
 
 export const Controls = styled.div`

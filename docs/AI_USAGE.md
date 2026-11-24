@@ -35,4 +35,10 @@
 - **Prompt da usuária:** “NAO ESSE LOGO DESSE COPO”, acompanhado de um recorte do banner.
 - **Objetivo:** trocar a marca impressa no copo, não a marca no cabeçalho.
 - **Decisão e ferramenta:** o assistente editou a imagem com Canvas, usando amostras da textura da faixa para limpar a estampa antiga. Aplicou um grão com traços de movimento e manteve o nome em duas linhas e a inclinação da estampa original. A ilustração de referência foi preservada separadamente.
-- **Decisão final:** a usuária pediu para manter a marca anterior, igual à referência do professor. A Home voltou a usar a arte original; o teste de estampa não é exibido na aplicação.
+- **Decisão nessa etapa:** esse primeiro teste de estampa não entrou na aplicação.
+
+## Seleção da proposta para o cabeçalho
+
+- **Prompt da usuária:** “NAO AQUELE Q PEDI P VC FAZER IGUAL AO DO PROFESSOR”.
+- **Decisão:** recuperar a versão desenhada pelo assistente com copo roxo, grão claro e traços de movimento. Após aprovação, aplicar a mesma marca no Header, no favicon e no copo do banner, com uma paleta clara para a faixa escura. O gerador visual para essa versão retornou `Invalid credential`; a adaptação do banner foi feita com Canvas.
+- **Evidência:** [SVG escolhido](../src/assets/branding/marca-copo.svg) e [banner editado](../src/assets/home/hero-marca-copo.png). A comparação de pixels confirmou que a edição ficou restrita à região da estampa.

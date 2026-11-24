@@ -846,7 +846,7 @@ A marca deverá possuir:
 
 A ferramenta, o prompt, o resultado e a justificativa da escolha deverão ser registrados no README ou na documentação de branding. Verificar a legibilidade em tamanho reduzido e os direitos de uso.
 
-O Header usa as versões transparentes do PNG do protótipo, e `src/assets/home/hero.svg` preserva a estampa original do copo. O símbolo autoral `src/assets/branding/marca-autoral.svg` foi avaliado localmente e permanece como rascunho fora da interface. A ferramenta dedicada de geração visual ainda não produziu uma imagem; consulte `docs/AI_USAGE.md`.
+O Header e o favicon usam `src/assets/branding/marca-copo.svg`, com fundo transparente, copo roxo e grão. O texto do Header usa as cores de cada tema. `src/assets/home/hero-marca-copo.png` aplica uma variante do mesmo símbolo na faixa escura do copo do banner. A arte original (`src/assets/home/hero.svg`), os PNGs do protótipo e a primeira proposta em SVG foram preservados. A ferramenta dedicada de geração visual ainda não produziu uma imagem; consulte `docs/AI_USAGE.md`.
 
 ---
 

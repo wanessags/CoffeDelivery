@@ -58,7 +58,7 @@ Outras telas mobile: [Checkout](docs/evidences/checkout-mobile.jpg) · [Confirma
 
 O [protótipo no Figma](https://www.figma.com/design/yGPNTA0Yczb183EikXGIiA/Coffee-Delivery-%E2%80%A2-Projeto-Final-React?node-id=2-1550) é a referência de composição, cores e tipografia (Baloo 2 e Roboto). As fotos do catálogo e a arte do banner vieram da [referência educacional da Rocketseat](https://github.com/rocketseat-education/ignite-challenge-solution-reactjs-coffee-delivery/tree/main/public/images).
 
-O cabeçalho usa o PNG transparente do protótipo, com uma variante de texto claro no modo escuro, e o copo do banner mantém a estampa original. A [proposta autoral em SVG](src/assets/branding/marca-autoral.svg) ficou registrada como rascunho. A geração pela ferramenta visual ainda está pendente; veja o [registro de uso de IA](docs/AI_USAGE.md).
+A aplicação usa a [marca do copo roxo em SVG](src/assets/branding/marca-copo.svg) no cabeçalho e no favicon. O mesmo símbolo, com tons adaptados à faixa escura, aparece na estampa do copo do banner. O grão substitui o foguete da referência. A geração pela ferramenta visual ainda está pendente; veja o [registro de uso de IA](docs/AI_USAGE.md).
 
 ## Documentação
 

@@ -1202,6 +1202,13 @@ Não inventar testes, screenshots ou resultados de execução.
 
 **Decisão posterior:** após a avaliação da proposta, a usuária preferiu manter a logo do protótipo no Header e a estampa original no banner. O SVG autoral ficou como rascunho. O RF-16 continua pendente.
 
+### T04 — Aplicação da proposta escolhida
+
+- **Escopo:** a versão escolhida, com copo roxo e grão, substitui o logotipo do Header, o favicon e a estampa da faixa do copo no banner.
+- **Validação:** lint, build e 17 testes passaram. A comparação de pixels confirmou que a edição do banner está restrita à região da estampa.
+- **Pendência:** o gerador visual não produziu uma proposta; essa parte do RF-16 não está validada.
+- **Commit:** `style: aplica a marca escolhida no cabecalho e no banner`.
+
 ---
 
 # 9. Checklist de entrega final
