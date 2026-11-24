@@ -66,3 +66,7 @@ O cabeçalho usa temporariamente o PNG do protótipo. Ele **não é uma logo aut
 - [TECH — arquitetura, persistência e testes](docs/TECH_SPEC.md)
 - [TASKS — etapas e validações](docs/TASKS_SPEC.md)
 - [AGENTS — diretrizes do projeto](AGENTS.md)
+
+## Hospedagem na Vercel
+
+Na [Vercel](https://vercel.com/new), entre com o GitHub, importe `wanessags/CoffeDelivery` e publique a branch `main`. O `vercel.json` já define a instalação, o build e o redirecionamento das rotas da SPA; não há variáveis de ambiente obrigatórias.

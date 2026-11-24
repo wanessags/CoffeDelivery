@@ -1116,6 +1116,8 @@ A implantação deverá:
 
 O link final deverá ser incluído no README.
 
+A publicação foi preparada para a Vercel. O `vercel.json` usa o preset Vite, instala com `npm ci`, publica `dist/` e reescreve as rotas da SPA para `index.html`. Não exige segredos nem variáveis de ambiente.
+
 ---
 
 ## 24. Rastreabilidade de requisitos

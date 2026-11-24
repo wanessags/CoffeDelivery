@@ -1177,6 +1177,13 @@ Não inventar testes, screenshots ou resultados de execução.
 - **Pendências:** marca autoral gerada por ferramenta visual e publicação definitiva.
 - **Commit:** `docs: apresenta o projeto e registra evidencias da aplicacao`.
 
+### T18 — Configuração da Vercel (parcial)
+
+- **Arquivos:** `vercel.json`, `README.md` e `docs/TECH_SPEC.md`.
+- **Escopo:** preset Vite, build, saída estática e fallback da SPA.
+- **Pendências:** obter uma URL pública definitiva e validar as rotas nela.
+- **Commit:** `chore: prepara hospedagem da SPA na Vercel`.
+
 ---
 
 # 9. Checklist de entrega final
